@@ -1,6 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-wutsi-spring-memcached,com.wutsi.spring.memcached,MemcachedClientBuilder,101,0,2,0,21,0,6,0,5,0
-wutsi-spring-memcached,com.wutsi.spring.memcached,MemcachedHealthIndicator,0,59,0,0,0,15,0,3,0,3
-wutsi-spring-memcached,com.wutsi.spring.memcached,MemcachedCache,86,272,7,15,11,53,7,18,0,14
-wutsi-spring-memcached,com.wutsi.spring.memcached,CacheEntry,0,21,0,0,0,3,0,3,0,3
-wutsi-spring-memcached,com.wutsi.spring.memcached,MemcachedHealthIndicator.Companion,0,2,0,0,0,1,0,1,0,1

@@ -35,7 +35,7 @@ class MemcachedClientBuilder {
         return this
     }
 
-    fun withHosts(addresses: String): MemcachedClientBuilder {
+    fun withServers(addresses: String): MemcachedClientBuilder {
         this.servers = addresses
         return this
     }
