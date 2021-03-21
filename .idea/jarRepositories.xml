@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="github-wutsi-payment-mtn" />
+      <option name="name" value="github-wutsi-payment-mtn" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-payment-mtn" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mavenCentral" />
+      <option name="name" value="mavenCentral" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-wutsi-payment" />
+      <option name="name" value="github-wutsi-payment" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-payment" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-wutsi-blog-client" />
+      <option name="name" value="github-wutsi-blog-client" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-blog-client" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-blog-core" />
+      <option name="name" value="github-blog-core" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-blog-core" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="bintray" />
+      <option name="url" value="http://jcenter.bintray.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-blog-core-aws" />
+      <option name="name" value="github-blog-core-aws" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-blog-core-aws" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-wutsi-extractor" />
+      <option name="name" value="github-wutsi-extractor" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-extractor" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-wutsi-editorjs" />
+      <option name="name" value="github-wutsi-editorjs" />
+      <option name="url" value="https://maven.pkg.github.com/wutsi/wutsi-editorjs" />
+    </remote-repository>
+  </component>
+</project>
