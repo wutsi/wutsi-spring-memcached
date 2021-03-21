@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.wutsi.spring.memcached.MemcachedCacheTest
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.995 s - in com.wutsi.spring.memcached.MemcachedCacheTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.887 s - in com.wutsi.spring.memcached.MemcachedCacheTest

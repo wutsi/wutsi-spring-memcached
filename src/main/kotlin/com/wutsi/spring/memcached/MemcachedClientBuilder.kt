@@ -7,12 +7,12 @@ import net.rubyeye.xmemcached.command.BinaryCommandFactory
 import net.rubyeye.xmemcached.utils.AddrUtil
 
 class MemcachedClientBuilder {
-    private var addresses: String = ""
+    private var servers: String = ""
     private var username: String = ""
     private var password: String = ""
 
     fun build(): MemcachedClient {
-        val servers = AddrUtil.getAddresses(addresses.replace(",", " "))
+        val servers = AddrUtil.getAddresses(servers.replace(",", " "))
         val authInfo = AuthInfo.plain(username, password)
 
         val builder = XMemcachedClientBuilder(servers)
@@ -35,8 +35,8 @@ class MemcachedClientBuilder {
         return this
     }
 
-    fun withAddresses(addresses: String): MemcachedClientBuilder {
-        this.addresses = addresses
+    fun withHosts(addresses: String): MemcachedClientBuilder {
+        this.servers = addresses
         return this
     }
 }
