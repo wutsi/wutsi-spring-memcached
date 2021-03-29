@@ -135,6 +135,14 @@ internal class MemcachedCacheTest {
     }
 
     @Test
+    fun `getByType should returns null when value not available`() {
+        doReturn(null).whenever(memcached).get<String>("$NAME#foo")
+
+        val result = cache.get("foo", String::class.java)
+        assertNull(result)
+    }
+
+    @Test
     fun `getWithCallable returns value from memcached when available`() {
         val entry = CacheEntry(
             classname = "java.util.Map",

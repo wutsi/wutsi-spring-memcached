@@ -48,8 +48,8 @@ class MemcachedCache(
 
     override fun <T : Any?> get(key: Any, clazz: Class<T>): T? {
         val value = get(key)
-        return if (clazz.isAssignableFrom(value?.get()?.javaClass))
-            value?.get() as T
+        return if (value != null && clazz.isAssignableFrom(value?.get()?.javaClass))
+            value.get() as T
         else
             null
     }
